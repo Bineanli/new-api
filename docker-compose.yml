@@ -1,5 +1,5 @@
 # New API — sefirah.cc
-# 1. cp .env.deploy.example .env   （服务器上改密码）
+# 1. cp .env.example .env  （填写 POSTGRES_PASSWORD / REDIS_PASSWORD / SESSION_SECRET）
 # 2. docker compose up -d
 # Nginx 反代到本机 3000
 
